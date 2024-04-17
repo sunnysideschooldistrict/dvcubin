@@ -18,6 +18,12 @@ body {
     justify-content: center;
     background-color: red;
 }
+.mobilesupport {
+    display: none;
+}
+.mobilesupport1 {
+    display: none;
+}
 .nav ul li {
     list-style: none;
     display: inline-block;
@@ -80,9 +86,64 @@ body {
     margin: 0;
     padding: 30px;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     html {
         height: 100%;
         width: 100%;
+    }
+    .nav {
+        width: 100%;
+        height: 0;
+        margin: 0;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+    }
+    .reasons {
+        display: none;
+        justify-content: center;
+    }
+    .reasons img {
+        width: 100px;
+        border-radius: 200px;
+        border-color: black;
+        border: solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .mobilesupport {
+        display: flex;
+        justify-content: center;
+    }
+    .mobilesupport img {
+        width: 100px;
+        border-radius: 200px;
+        border-color: black;
+        border: solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .mobilesupport1 {
+        display: flex;
+        justify-content: center;
+    }
+    .mobilesupport1 img {
+        width: 100px;
+        border-radius: 200px;
+        border-color: black;
+        border: solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        margin-top: 48px;
+        margin-bottom: 48px;
     }
 }
