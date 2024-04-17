@@ -80,7 +80,7 @@ body {
     margin: 0;
     padding: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     html {
         height: 100%;
         width: 100%;
