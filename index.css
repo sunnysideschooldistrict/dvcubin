@@ -11,7 +11,7 @@ body {
 .nav {
     width: 100%;
     height: 0;
-    margin: auto;
+    margin: 0;
     padding: 35px 0;
     display: flex;
     align-items: center;
@@ -45,6 +45,7 @@ body {
 .banner img {
     width: 100%;
     height: 300px;
+    margin: 0;
 }
 .why {
     display: flex;
@@ -66,4 +67,16 @@ body {
     display: flex;
     margin-top: 48px;
     margin-bottom: 48px;
+}
+.schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 200px;
+    margin-top: 35px;
+}
+.schedule h1 {
+    margin: 0;
+    padding: 30px;
 }
