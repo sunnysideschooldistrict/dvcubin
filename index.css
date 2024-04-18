@@ -79,12 +79,34 @@ body {
     justify-content: center;
     align-items: center;
     background-color: red;
-    height: 200px;
+    height: 100px;
     margin-top: 35px;
+    border-top: solid;
+    border-color: black;
 }
 .schedule h1 {
     margin: 0;
     padding: 30px;
+}
+.contact {
+    height: 100px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img{
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+    border: solid black;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.contacttext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 700px) {
     html {
