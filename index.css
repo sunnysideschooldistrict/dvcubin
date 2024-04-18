@@ -108,7 +108,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 720px) {
     html {
         height: 100%;
         width: 100%;
