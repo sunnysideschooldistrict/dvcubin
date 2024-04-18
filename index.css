@@ -168,4 +168,7 @@ body {
         margin-top: 48px;
         margin-bottom: 48px;
     }
+    .schedule h1{
+        font-size: 15px;
+    }
 }
