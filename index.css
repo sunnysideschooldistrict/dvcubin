@@ -141,6 +141,7 @@ body {
     .mobilesupport {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     .mobilesupport img {
         width: 100px;
@@ -156,6 +157,7 @@ body {
     .mobilesupport1 {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     .mobilesupport1 img {
         width: 100px;
@@ -170,5 +172,8 @@ body {
     }
     .schedule h1{
         font-size: 15px;
+    }
+    .schedule {
+        width: 100;
     }
 }
