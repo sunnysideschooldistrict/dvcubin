@@ -182,4 +182,11 @@ body {
     .schedule {
         width: 100;
     }
+    .instagram {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .contact img {
+        margin: 0;
+    }
 }
