@@ -144,7 +144,7 @@ body {
 .mobilemembers {
     display: none;
 }
-@media (max-width: 720px) {
+@media (max-width: 800px) {
     html {
         height: 100%;
         width: 100%;
