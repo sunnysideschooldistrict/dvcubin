@@ -154,6 +154,12 @@ body {
     html {
         height: 100%;
         width: 100%;
+        margin: 0;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
     }
     .nav {
         width: 100%;
@@ -209,5 +215,8 @@ body {
         display: flex;
         margin-top: 48px;
         margin-bottom: 48px;
+    }
+    .schedule h1 {
+        font-size: 15px;
     }
 }
