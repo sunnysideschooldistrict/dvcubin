@@ -225,4 +225,8 @@ body {
         width: 100%;
         margin: 0;
     }
+    .contact img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
