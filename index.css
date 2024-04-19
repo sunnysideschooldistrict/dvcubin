@@ -219,4 +219,8 @@ body {
     .schedule h1 {
         font-size: 15px;
     }
+    .contact {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
 }
