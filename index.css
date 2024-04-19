@@ -211,6 +211,8 @@ body {
         border-color: black;
         border: solid;
         display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 48px;
         margin-bottom: 48px;
     }
